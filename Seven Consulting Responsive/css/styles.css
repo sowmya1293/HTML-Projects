@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* GENERAL COMPONENTS */
+
+ul li {
+  list-style: none;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 80px;
+  max-height: 70px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li:first-child {
+  text-decoration: underline #ffe066 1px;
+  text-underline-offset: 8px;
+}
+
+.caret {
+  font-size: 10px;
+}
+
+.phone-icon {
+  vertical-align: middle;
+  color: #ffe066;
+  margin-right: 3px;
+}
+
+.basket-icon {
+  font-size: 18px;
+  border-radius: 50%;
+  border: 1px solid #868e96;
+  color: #868e96;
+  padding: 5px;
+}
+
+/* SECTION ONE */
+
+.section-one {
+  background-color: #091331;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.consultation-text {
+  flex-basis: 620px;
+  color: #fff;
+}
+
+.consultation-text p {
+  margin: 20px 0;
+}
+
+.header-img {
+  max-width: 400px;
+  max-height: 400px;
+  flex-basis: 620px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.consultation-button {
+  padding: 10px;
+  background-color: #ffe066;
+  border-radius: 6%;
+  border: none;
+}
+
+.consultation-link {
+  padding: 10px;
+  color: #fff;
+  text-decoration: underline #ffe066 1px;
+  text-underline-offset: 8px;
+}
+
+.right-caret {
+  vertical-align: middle;
+}
+
+.intro {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.individual-intro {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.intro-icon {
+  color: #ffe066;
+}
+
+/* SECTION TWO */
+
+.about {
+  display: flex;
+  justify-content: space-around;
+}
+
+.welcome-div {
+  flex-basis: 640px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.accolades {
+  flex-basis: 640px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.welcome-div h2 {
+  font-size: 18px;
+  color: #ced4da;
+  margin-bottom: 10px;
+}
+
+.welcome-div p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.welcome-div button {
+  padding: 10px;
+  background-color: #ffe066;
+  border: none;
+  border-radius: 5%;
+}
+
+.accolades-nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-size: 20px;
+  align-items: center;
+}
+
+.vertical-line {
+  display: inline;
+  border: 1px solid #868e96;
+  height: 50px;
+}
+
+.accolades-p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.service-grid {
+  border: 1px solid #868e96;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.service-icon {
+  color: #ffe066;
+  font-size: 28px;
+}
+
+.inside-grid {
+  font-size: 20px;
+}

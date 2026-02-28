@@ -1,0 +1,375 @@
+@media (min-width: 1440px) {
+  /* SECTION ONE */
+  .flex-container {
+    display: flex;
+  }
+
+  .consultation-text {
+    flex-basis: 720px;
+  }
+
+  .consultation-text h1 {
+    font-size: 36px;
+  }
+
+  .consultation-text p {
+    font-size: 20px;
+  }
+
+  .header-img {
+    flex-basis: 720px;
+    max-width: 420px;
+    max-height: 420px;
+  }
+
+  .consultation-button {
+    font-size: 18px;
+  }
+
+  .consultation-link {
+    font-size: 18px;
+  }
+
+  .intro {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  /*SECTION TWO */
+  .services {
+    margin-top: 10px;
+  }
+
+  .welcome-div {
+    flex-basis: 720px;
+  }
+
+  .accolades {
+    flex-basis: 720px;
+  }
+
+  .welcome-div h2 {
+    font-size: 20px;
+  }
+
+  .welcome-div p {
+    font-size: 35px;
+  }
+
+  .welcome-div button {
+    padding: 12px;
+  }
+
+  .accolades-nav {
+    justify-content: space-between;
+    font-size: 25px;
+  }
+
+  .service-grid {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .inside-grid {
+    font-size: 22px;
+  }
+
+  .service-icon {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .section-one {
+    padding: 8px;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .consultation-text {
+    flex-basis: 512px;
+  }
+
+  .header-img {
+    flex-basis: 512px;
+  }
+
+  .intro {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .individual-intro {
+    gap: 6px;
+  }
+
+  .intro-icon {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .section-one {
+    padding-top: 10px;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .consultation-text {
+    flex-basis: 384px;
+  }
+
+  .consultation-text h1 {
+    font-size: 26px;
+  }
+
+  .consultation-text p {
+    font-size: 13px;
+  }
+
+  .header-img {
+    flex-basis: 384px;
+    max-width: 250px;
+    min-width: 250px;
+  }
+
+  .consultation-button {
+    font-size: 12px;
+  }
+
+  .consultation-link {
+    font-size: 12px;
+  }
+
+  .intro {
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 20px;
+  }
+
+  .individual-intro {
+    gap: 3px;
+  }
+
+  .intro-icon {
+    font-size: 14px;
+  }
+  /*SECTION TWO*/
+  .welcome-div {
+    flex-basis: 384px;
+    padding: 10px;
+  }
+
+  .welcome-div p {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  .accolades {
+    flex-basis: 384px;
+    padding: 10px;
+  }
+
+  .accolades-nav {
+    font-size: 15px;
+  }
+
+  .vertical-line {
+    height: 30px;
+  }
+
+  .accolades-p {
+    font-size: 15px;
+  }
+
+  .services {
+    grid-template-columns: 200px 200px 200px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .section-one {
+    padding: 10px;
+  }
+
+  .flex-container {
+    display: block;
+  }
+
+  .consultation-text h1 {
+    font-size: 25px;
+  }
+
+  .consultation-text p {
+    font-size: 12px;
+  }
+
+  .buttons {
+    margin-bottom: 20px;
+  }
+  .consultation-button {
+    font-size: 10px;
+    max-width: 30%;
+  }
+
+  .consultation-link {
+    font-size: 10px;
+  }
+
+  .header-div {
+    text-align: center;
+  }
+
+  .header-img {
+    max-width: 80%;
+  }
+
+  .intro {
+    display: list-item;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .individual-intro {
+    gap: 6px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .section-one {
+    padding: 10px;
+  }
+
+  .flex-container {
+    display: block;
+  }
+
+  .consultation-text h1 {
+    font-size: 18px;
+  }
+
+  .consultation-text p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .buttons {
+    margin-bottom: 20px;
+  }
+  .consultation-button {
+    font-size: 8px;
+    padding: 2px 2px;
+  }
+
+  .consultation-link {
+    font-size: 8px;
+  }
+
+  .header-div {
+    text-align: center;
+  }
+
+  .header-img {
+    max-width: 60%;
+  }
+
+  .intro {
+    margin-top: 10px;
+    display: list-item;
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .section-one {
+    padding: 10px;
+  }
+
+  .flex-container {
+    display: block;
+  }
+
+  .consultation-text h1 {
+    font-size: 18px;
+  }
+
+  .consultation-text p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .buttons {
+    margin-bottom: 20px;
+  }
+  .consultation-button {
+    display: inline-block;
+    font-size: 7px;
+    line-height: 1;
+  }
+
+  .consultation-link {
+    font-size: 7px;
+  }
+
+  .header-div {
+    text-align: center;
+  }
+
+  .header-img {
+    max-width: 60%;
+  }
+
+  .intro {
+    margin-top: 10px;
+    display: list-item;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 319px) {
+  .section-one {
+    padding: 10px;
+  }
+
+  .flex-container {
+    display: block;
+  }
+
+  .consultation-text h1 {
+    font-size: 18px;
+  }
+
+  .consultation-text p {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .buttons {
+    margin-bottom: 20px;
+  }
+  .consultation-button {
+    display: block;
+    font-size: 6px;
+  }
+
+  .consultation-link {
+    font-size: 6px;
+  }
+
+  .header-div {
+    text-align: center;
+  }
+
+  .header-img {
+    max-width: 60%;
+  }
+
+  .intro {
+    margin-top: 10px;
+    display: list-item;
+    font-size: 10px;
+  }
+}
