@@ -1,0 +1,29 @@
+@media (max-width: 88em) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 58%;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .individual-intro {
+    margin-top: 3rem;
+  }
+
+  .welcome-div button {
+    width: 40%;
+    padding: 1.5rem;
+  }
+
+  .accolades-nav {
+    margin: 0 auto;
+  }
+}
